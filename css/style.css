@@ -1,0 +1,108 @@
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v22-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v22-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/Дима.jpg) no-repeat;
+    block-size: cover;
+
+  }
+
+.Login__Form{
+    width: 420px;
+    color: #fff;
+    padding: 30px 40px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+}
+
+.Login__Form h1{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.Login__Form .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.14);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.rememberme{
+    margin: -20px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rememberme input{
+    margin-right: 5px;
+}
+
+.rememberme a:hover{
+    color: rgba(147, 147, 147, 0.781);
+}
+
+.Login__Form .button__login{
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.Login__Form .register-link{
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.register-link p a{
+    font-weight: 500;
+}
+
+.register-link p a:hover{
+    color: rgba(147, 147, 147, 0.781);
+}
